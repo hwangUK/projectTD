@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d61c015476b093448ab5ab494c7a4ba5, type: 3}
+  m_Name: StageDataLV1
+  m_EditorClassIdentifier: 
+  stageRechargeLife: 16
+  presetWave:
+  - waveTotalUnitCount: 10
+    spawnKindUnit:
+    - hp: 10
+      startTime: 0
+      endTime: 0
+      delayTime: 2.5
+      unitType: 0
+  - waveTotalUnitCount: 20
+    spawnKindUnit:
+    - hp: 10
+      startTime: 0
+      endTime: 0
+      delayTime: 2.5
+      unitType: 0
+    - hp: 15
+      startTime: 5
+      endTime: 0
+      delayTime: 1
+      unitType: 1
+  - waveTotalUnitCount: 30
+    spawnKindUnit:
+    - hp: 15
+      startTime: 0
+      endTime: 0
+      delayTime: 2.5
+      unitType: 0
+    - hp: 20
+      startTime: 5
+      endTime: 0
+      delayTime: 1
+      unitType: 1
+    - hp: 20
+      startTime: 10
+      endTime: 0
+      delayTime: 1.5
+      unitType: 1
+  - waveTotalUnitCount: 40
+    spawnKindUnit:
+    - hp: 20
+      startTime: 0
+      endTime: 0
+      delayTime: 1
+      unitType: 0
+    - hp: 30
+      startTime: 8
+      endTime: 0
+      delayTime: 0.5
+      unitType: 1
+  - waveTotalUnitCount: 50
+    spawnKindUnit:
+    - hp: 20
+      startTime: 0
+      endTime: 0
+      delayTime: 1
+      unitType: 0
+    - hp: 35
+      startTime: 10
+      endTime: 0
+      delayTime: 0.5
+      unitType: 1
+  - waveTotalUnitCount: 60
+    spawnKindUnit:
+    - hp: 25
+      startTime: 0
+      endTime: 0
+      delayTime: 1
+      unitType: 0
+    - hp: 40
+      startTime: 2
+      endTime: 0
+      delayTime: 0.5
+      unitType: 1
+  - waveTotalUnitCount: 70
+    spawnKindUnit:
+    - hp: 30
+      startTime: 0
+      endTime: 0
+      delayTime: 1
+      unitType: 0
+    - hp: 50
+      startTime: 10
+      endTime: 0
+      delayTime: 0.5
+      unitType: 1
+    - hp: 60
+      startTime: 15
+      endTime: 0
+      delayTime: 1
+      unitType: 1
+  - waveTotalUnitCount: 70
+    spawnKindUnit:
+    - hp: 40
+      startTime: 0
+      endTime: 0
+      delayTime: 1
+      unitType: 0
+    - hp: 60
+      startTime: 10
+      endTime: 0
+      delayTime: 0.5
+      unitType: 1
+    - hp: 70
+      startTime: 15
+      endTime: 0
+      delayTime: 0.7
+      unitType: 1
+  - waveTotalUnitCount: 80
+    spawnKindUnit:
+    - hp: 40
+      startTime: 0
+      endTime: 0
+      delayTime: 0.5
+      unitType: 0
+    - hp: 60
+      startTime: 2
+      endTime: 0
+      delayTime: 0.5
+      unitType: 1
+    - hp: 70
+      startTime: 10
+      endTime: 0
+      delayTime: 0.5
+      unitType: 0
+  - waveTotalUnitCount: 100
+    spawnKindUnit:
+    - hp: 50
+      startTime: 0
+      endTime: 0
+      delayTime: 0.5
+      unitType: 0
+    - hp: 70
+      startTime: 3
+      endTime: 0
+      delayTime: 0.5
+      unitType: 1
+    - hp: 85
+      startTime: 6
+      endTime: 0
+      delayTime: 0.5
+      unitType: 0
+    - hp: 100
+      startTime: 8
+      endTime: 0
+      delayTime: 0.5
+      unitType: 1

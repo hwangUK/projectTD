@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa978575e9730694f9890931892455f6, type: 3}
+  m_Name: UD3_Peach
+  m_EditorClassIdentifier: 
+  type: 3
+  iconImg: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  needBuildTime: 0
+  needSeedCount: 20
+  hp: 0
+  doingIntervalTime: 5
+  attackDamage: 100
+  bulletSpeed: 100
+  attackRadius: 15
+  discriptionList:
+  - languageType: english
+    name: Peach
+    discription: It looks like shotgun
+  statusAmt_hp: 0
+  statusAmt_needSeed: 0
+  statusAmt_damage: 0
+  statusAmt_bulletSpeed: 0
+  statusAmt_doingInterval: 0.1
+  statusAmt_attackRadius: 0.5

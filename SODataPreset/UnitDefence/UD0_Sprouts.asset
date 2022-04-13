@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa978575e9730694f9890931892455f6, type: 3}
+  m_Name: UD0_Sprouts
+  m_EditorClassIdentifier: 
+  type: 0
+  iconImg: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  needBuildTime: 1
+  needSeedCount: 4
+  hp: 10
+  doingIntervalTime: 3
+  attackDamage: -1
+  bulletSpeed: -1
+  attackRadius: 0
+  discriptionList:
+  - languageType: korean
+    name: "\uC0C8\uC2F9"
+    discription: "\uC0C8\uC2F9\uC740 \uC77C\uC815 \uC2DC\uAC04\uB9C8\uB2E4 \uC528\uC557\uC744
+      \uC218\uD655\uD569\uB2C8\uB2E4."
+  - languageType: english
+    name: sprouts
+    discription: Sprouts harvest seeds at regular intervals.
+  statusAmt_hp: 0
+  statusAmt_needSeed: 0
+  statusAmt_damage: 0
+  statusAmt_bulletSpeed: 0
+  statusAmt_doingInterval: 0
+  statusAmt_attackRadius: 0
